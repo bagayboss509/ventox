@@ -1,42 +1,338 @@
 {
-   "ads_banner" : "ca-app-pub-8708018795595760/3232448599",
-   "ads_card" : "ca-app-pub-8708018795595760/1919366927",
-   "ads_fullscreen" : "ca-app-pub-8708018795595760/6980121919",
-   "ads_mobile" : "ca-app-pub-8708018795595760~2615572124",
-   "ads_native" : "ca-app-pub-8708018795595760/3218623260",
-   "ads_nextpage" : "ca-app-pub-8708018795595760/9413917405",
-   "application" : "Ventox",
-   "languages" : [
-      {
-         "code" : "en",
-         "language" : "English"
-      },
-      {
-         "code" : "de",
-         "language" : "Deutsch"
-      },
-      {
-         "code" : "tr",
-         "language" : "Türkçe"
-      },
-      {
-         "code" : "pt",
-         "language" : "Português"
-      },
-      {
-         "code" : "es",
-         "language" : "Español"
-      },
-      {
-         "code" : "it",
-         "language" : "Italiano"
-      },
-      {
-         "code" : "fr",
-         "language" : "Français"
-      }
-   ],
-   "maintenance" : 1,
-   "package_name" : "com.xtreamcodeapi.ventoxapp",
-   "version" : 49
+  "application": "Ventox",
+  "version": 53,
+  "maintenance": 1,
+  "ads_mobile": "ca-app-pub-8708018795595760~2615572124",
+  "ads_banner": "ca-app-pub-8708018795595760/3232448599",
+  "ads_native": "ca-app-pub-8708018795595760/3218623260",
+  "ads_card": "ca-app-pub-8708018795595760/1919366927",
+  "ads_fullscreen": "ca-app-pub-8708018795595760/6980121919",
+  "ads_nextpage": "ca-app-pub-8708018795595760/9413917405",
+  "package_name": "com.xtreamcodeapi.ventoxapp",
+  "languages": [
+    {
+      "language": "Afrikaans",
+      "code": "af"
+    },
+    {
+      "language": "አማርኛ",
+      "code": "am"
+    },
+    {
+      "language": "العربية",
+      "code": "ar"
+    },
+    {
+      "language": "Azərbaycan",
+      "code": "az"
+    },
+    {
+      "language": "Беларуская",
+      "code": "be"
+    },
+    {
+      "language": "Български",
+      "code": "bg"
+    },
+    {
+      "language": "বাংলা",
+      "code": "bn"
+    },
+    {
+      "language": "Bosanski",
+      "code": "bs"
+    },
+    {
+      "language": "Català",
+      "code": "ca"
+    },
+    {
+      "language": "Čeština",
+      "code": "cs"
+    },
+    {
+      "language": "Cymraeg",
+      "code": "cy"
+    },
+    {
+      "language": "Dansk",
+      "code": "da"
+    },
+    {
+      "language": "Deutsch",
+      "code": "de"
+    },
+    {
+      "language": "Ελληνικά",
+      "code": "el"
+    },
+    {
+      "language": "English",
+      "code": "en"
+    },
+    {
+      "language": "Español",
+      "code": "es"
+    },
+    {
+      "language": "Eesti",
+      "code": "et"
+    },
+    {
+      "language": "Euskara",
+      "code": "eu"
+    },
+    {
+      "language": "فارسی",
+      "code": "fa"
+    },
+    {
+      "language": "Suomi",
+      "code": "fi"
+    },
+    {
+      "language": "Français",
+      "code": "fr"
+    },
+    {
+      "language": "Frysk",
+      "code": "fy"
+    },
+    {
+      "language": "Gaeilge",
+      "code": "ga"
+    },
+    {
+      "language": "Gàidhlig",
+      "code": "gd"
+    },
+    {
+      "language": "Galego",
+      "code": "gl"
+    },
+    {
+      "language": "ગુજરાતી",
+      "code": "gu"
+    },
+    {
+      "language": "עברית",
+      "code": "he"
+    },
+    {
+      "language": "हिन्दी",
+      "code": "hi"
+    },
+    {
+      "language": "Hrvatski",
+      "code": "hr"
+    },
+    {
+      "language": "Magyar",
+      "code": "hu"
+    },
+    {
+      "language": "Հայերեն",
+      "code": "hy"
+    },
+    {
+      "language": "Bahasa Indonesia",
+      "code": "id"
+    },
+    {
+      "language": "Íslenska",
+      "code": "is"
+    },
+    {
+      "language": "Italiano",
+      "code": "it"
+    },
+    {
+      "language": "日本語",
+      "code": "ja"
+    },
+    {
+      "language": "ქართული",
+      "code": "ka"
+    },
+    {
+      "language": "Қазақ",
+      "code": "kk"
+    },
+    {
+      "language": "ខ្មែរ",
+      "code": "km"
+    },
+    {
+      "language": "ಕನ್ನಡ",
+      "code": "kn"
+    },
+    {
+      "language": "한국어",
+      "code": "ko"
+    },
+    {
+      "language": "Kurdî",
+      "code": "ku"
+    },
+    {
+      "language": "Кыргызча",
+      "code": "ky"
+    },
+    {
+      "language": "Lëtzebuergesch",
+      "code": "lb"
+    },
+    {
+      "language": "Lietuvių",
+      "code": "lt"
+    },
+    {
+      "language": "Latviešu",
+      "code": "lv"
+    },
+    {
+      "language": "Македонски",
+      "code": "mk"
+    },
+    {
+      "language": "മലയാളം",
+      "code": "ml"
+    },
+    {
+      "language": "Монгол",
+      "code": "mn"
+    },
+    {
+      "language": "मराठी",
+      "code": "mr"
+    },
+    {
+      "language": "Bahasa Melayu",
+      "code": "ms"
+    },
+    {
+      "language": "Malti",
+      "code": "mt"
+    },
+    {
+      "language": "မြန်မာ",
+      "code": "my"
+    },
+    {
+      "language": "नेपाली",
+      "code": "ne"
+    },
+    {
+      "language": "Nederlands",
+      "code": "nl"
+    },
+    {
+      "language": "Norsk",
+      "code": "no"
+    },
+    {
+      "language": "ਪੰਜਾਬੀ",
+      "code": "pa"
+    },
+    {
+      "language": "Polski",
+      "code": "pl"
+    },
+    {
+      "language": "پښتو",
+      "code": "ps"
+    },
+    {
+      "language": "Português",
+      "code": "pt"
+    },
+    {
+      "language": "Română",
+      "code": "ro"
+    },
+    {
+      "language": "Русский",
+      "code": "ru"
+    },
+    {
+      "language": "සිංහල",
+      "code": "si"
+    },
+    {
+      "language": "Slovenčina",
+      "code": "sk"
+    },
+    {
+      "language": "Slovenščina",
+      "code": "sl"
+    },
+    {
+      "language": "Shqip",
+      "code": "sq"
+    },
+    {
+      "language": "Српски",
+      "code": "sr"
+    },
+    {
+      "language": "Svenska",
+      "code": "sv"
+    },
+    {
+      "language": "Kiswahili",
+      "code": "sw"
+    },
+    {
+      "language": "தமிழ்",
+      "code": "ta"
+    },
+    {
+      "language": "తెలుగు",
+      "code": "te"
+    },
+    {
+      "language": "Тоҷикӣ",
+      "code": "tg"
+    },
+    {
+      "language": "ไทย",
+      "code": "th"
+    },
+    {
+      "language": "Türkmen",
+      "code": "tk"
+    },
+    {
+      "language": "Tagalog",
+      "code": "tl"
+    },
+    {
+      "language": "Türkçe",
+      "code": "tr"
+    },
+    {
+      "language": "Татар",
+      "code": "tt"
+    },
+    {
+      "language": "Українська",
+      "code": "uk"
+    },
+    {
+      "language": "اردو",
+      "code": "ur"
+    },
+    {
+      "language": "Oʻzbek",
+      "code": "uz"
+    },
+    {
+      "language": "Tiếng Việt",
+      "code": "vi"
+    },
+    {
+      "language": "中文",
+      "code": "zh"
+    }
+  ]
 }
